@@ -1,1 +1,1 @@
-# SimplePong
+A Simple Pong game made with Phaser.js.
