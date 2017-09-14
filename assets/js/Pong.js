@@ -65,7 +65,7 @@ function collideWithPaddle (ball, paddle) {
         segmentHit = -(paddleSegmentsMax - 1);
     }
 
-    if (paddle.x < 1200 * 0.5) {
+    if (paddle.x < 1300 * 0.5) {
         returnAngle = segmentHit * paddleSegmentAngle;
         game.physics.arcade.velocityFromAngle(returnAngle, velocity, ball.body.velocity);
         velocity +=50;
@@ -92,6 +92,15 @@ function update() {
         AIPaddle.y -=AIspeed;
     }else{
         AIPaddle.y +=AIspeed;
+    }
+    if (ball.x < playerPaddle.x-15) {
+        velocity = 750;
+       ball.x = game.world.centerX;
+
+    } else if (ball.x > AIPaddle.x-35) {
+        velocity = 750;
+        ball.x = game.world.centerX;
+
     }
 
 }

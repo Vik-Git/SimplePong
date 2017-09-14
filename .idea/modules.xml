@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../IAmVik/.idea/IAmVik.iml" filepath="$PROJECT_DIR$/../IAmVik/.idea/IAmVik.iml" />
+      <module fileurl="file://C:\Users\Vik\PhpstormProjects\IAmVik\IAmVik\.idea\IAmVik.iml" filepath="C:\Users\Vik\PhpstormProjects\IAmVik\IAmVik\.idea\IAmVik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SimplePong.iml" filepath="$PROJECT_DIR$/.idea/SimplePong.iml" />
     </modules>
   </component>
 </project>
